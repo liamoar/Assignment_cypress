@@ -1,0 +1,16 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cyOpen": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.7.0",
+    "gmail-tester": "^1.2.5"
+  }
+}
