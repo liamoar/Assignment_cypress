@@ -5,7 +5,7 @@ describe("amazon ", () => {
     cy.visit("https://www.amazon.com/");
   });
 
-  it("dynamic dropdown search", () => {
+  it("side menu category click", () => {
     //provide the category you want to vist in below category constant
     const category = "Computers";
     amazonPageObject.sidemenu(category);
